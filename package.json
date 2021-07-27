@@ -4,6 +4,7 @@
   "description": "Trivia API with Express",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/linaurena/TriviaAPI/issues"
   },
-  "homepage": "https://github.com/linaurena/TriviaAPI#readme"
+  "homepage": "https://github.com/linaurena/TriviaAPI#readme",
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
 }
