@@ -36,9 +36,9 @@ let seriesData = [
     },
     {
         id: 6,
-        question: "What sports game featured the first TV advertisement?",
-        answers: ["Lakers and Troyans", "Clippers and Kings", "Dodgers and Phillies", "Cobras and Portland"],
-        correct: ["Dodgers and Phillies"]
+        question: "What is the name of the fictional town where Stranger Things is set?",
+        answers: ["Hawkins", "Chatswin", "Happiness", "Eerie"],
+        correct: ["Hawkins"]
     },
     {
         id: 7,
@@ -48,15 +48,15 @@ let seriesData = [
     },
     {
         id: 8,
-        question: "Who won Jeopardy in 2004 and took home 2.5 million dollars?",
-        answers: ["Joy Forrester", "Todd Wilson", "Ken Jennings", "Lorraine Stalberg"],
-        correct: ["Ken Jennings"]
+        question: "Which series follows a family of adopted siblings who have superpowers?",
+        answers: ["The Defenders", "The Umbrella Academy", "Raising Dion", "Space Force"],
+        correct: ["The Umbrella Academy"]
     },
     {
         id: 9,
-        question: "What was the subject of the first-ever advertisement on TV?",
-        answers: ["Bulova Watches", "FedEx", "M & M", "Pizza Hut"],
-        correct: ["Bulova Watches"]
+        question: "Where do Clay and Hannah work together in 13 Reasons Why?",
+        answers: ["The Club House", "The Crestmont", "Monet's", "Blue Spot Liquor"],
+        correct: ["The Crestmont"]
     },
     {
         id: 10,
@@ -156,18 +156,276 @@ let seriesData = [
     },
     {
         id: 26,
-        question: "Who played The Penguin in the original Batman TV series?",
-        answers: ["Cesar Romero", "Alan Napier", "Burt Ward", "Burgess Meredith"],
-        correct: ["Burgess Meredith"]
+        question: "What is the name of the school in Sex Education?",
+        answers: ["St. Jude’s", "Rosewood High", "Dillon High", "Moordale High"],
+        correct: ["Moordale High"]
+    },
+    {
+        id: 27,
+        question: "Which of these is NOT the name of one of a character on Netflix's Stranger Things?",
+        answers: ["Max Mayfield", "Will Biers", "Mike Wheeler", "Joe Lamb"],
+        correct: ["Joe Lamb"]
+    },
+    {
+        id: 28,
+        question: "What's the surname of the family on the Netflix series, Ozark?",
+        answers: ["Byrde", "Snell", "Bluth", "Navarro"],
+        correct: ["Byrde"]
+    },
+    {
+        id: 29,
+        question: "Which The Office cast member had a regular role on Netflix's The OA?",
+        answers: ["Angela Kinsey", "Kate Flannery", "Phyllis Smith", "Leslie David Baker"],
+        correct: ["Phyllis Smith"]
+    },
+    {
+        id: 30,
+        question: "Christina Applegate and Linda Cardellini starred together in which series?",
+        answers: ["Dead to Me", "You", "The Stranger", "Good Girls"],
+        correct: ["Dead to Me"]
+    },
+    {
+        id: 31,
+        question: "In what U.S. state is Breaking Bad set?",
+        answers: ["Texas", "Arizona", "New Mexico", "Utah"],
+        correct: ["New Mexico"]
+    },
+    {
+        id: 32,
+        question: "Riverdale is based on which famous comics?",
+        answers: ["Harris", "Archie", "Harvey", "Charlton"],
+        correct: ["Archie"]
+    },
+    {
+        id: 33,
+        question: "What is the name of the interactive Black Mirror movie released in 2018?",
+        answers: ["Bandersnatch", "Crocodile", "Arkangel", "Striking Vipers"],
+        correct: ["Bandersnatch"]
+    },
+    {
+        id: 34,
+        question: "Who created Black Mirror?",
+        answers: ["Vince Gilligan", "Charlie Brooker", "David Lynch", "Ricky Gervais"],
+        correct: ["Charlie Brooker"]
+    },
+    {
+        id: 35,
+        question: "Which sauce is Rick famously obsessed with in Rick and Morty?",
+        answers: ["Chimichurri", "Tabasco", "Siracha", "Szechaun"],
+        correct: ["Szechaun"]
     }
 ]
 
 let moviesData = [
     {
         id: 1,
-        question: "Waiting",
-        answers: ["Abc", "Def", "Ghi", "Jkl"],
-        correct: ["Def"]
+        question: "Why is the main character of Tall Girl so upset?",
+        answers: ["She's tall", "She's an only child", "She's a nerd girl", "She fell down a staircase"],
+        correct: ["She's tall"]
+    },
+    {
+        id: 2,
+        question: "Jennifer Aniston and Adam Sandler starred in a murder mystery comedy film in 2019. What was the name of it?",
+        answers: ["Who Dun It", "Murder Mystery", "The Bottom of This", "Let's be Detectives"],
+        correct: ["Murder Mystery"]
+    },
+    {
+        id: 3,
+        question: "Fill in the blank for this movie title: The _____ Booth",
+        answers: ["Phone", "Kissing", "Cafe", "Cotton Candy"],
+        correct: ["Kissing"]
+    },
+    {
+        id: 4,
+        question: "Who is the lead star in Bird Box?",
+        answers: ["Joey King", "Sandra Bullock", "Jennifer Aniston", "Jennifer Lopez"],
+        correct: ["Sandra Bullock"]
+    },
+    {
+        id: 5,
+        question: "What's the name of Netflix's film about two police officers in a world where magic exists?",
+        answers: ["Light", "Bright", "Glow", "Shine"],
+        correct: ["Bright"]
+    },
+    {
+        id: 6,
+        question: "Which of these Netflix originals is not live action?",
+        answers: ["Klaus", "Dolemite is my name", "Let it snow", "The Lovebirds"],
+        correct: ["Klaus"]
+    },
+    {
+        id: 7,
+        question: "What movie doesn't take place in high school?",
+        answers: ["To all the Boy's I've loved before", "Reality High", "The Kissing Booth", "A Christmas Prince"],
+        correct: ["A Christmas Prince"]
+    },
+    {
+        id: 8,
+        question: "What film does Keanu Reeves star in?",
+        answers: ["Secret Obsession", "Falling Inn Love", "Always be my Maybe", "Tall Girl"],
+        correct: ["Always be my Maybe"]
+    },
+    {
+        id: 9,
+        question: "Which movie did Noah Centineo not star in?",
+        answers: ["Candy Jar", "Sierra Burgess is a loser", "The perfect date", "To all the Boy's I've loved before"],
+        correct: ["Candy Jar"]
+    },
+    {
+        id: 10,
+        question: "Which of these is not a Christmas movie?",
+        answers: ["The Princess Switch", "Let it snow", "Unicorn Store", "The Holiday Calendar"],
+        correct: ["Unicorn Store"]
+    },
+    {
+        id: 11,
+        question: "Which of these films is not a rom-com",
+        answers: ["Alex Strangelove", "When We First Met", "Cam", "Set It Up"],
+        correct: ["Cam"]
+    },
+    {
+        id: 12,
+        question: "What genre is the film To all the Boys I've loved before?",
+        answers: ["Thriller", "Rom-com", "Mystery", "Crime drama"],
+        correct: ["Rom-com"]
+    },
+    {
+        id: 13,
+        question: "How many Marvel films were released in 2020?",
+        answers: ["None", "One", "Two", "Three"],
+        correct: ["None"]
+    },
+    {
+        id: 14,
+        question: "Parasite was the 2020's big Oscar winner - what country is the film from?",
+        answers: ["Japan", "South Korea", "China", "Philippines"],
+        correct: ["South Korea"]
+    },
+    {
+        id: 15,
+        question: "What was the full title of the Harley Quinn solo film released in January of 2020?",
+        answers: ["Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)", "Harley Quinn 2", "Harley Quinn Subsequent", "The real Quinn"],
+        correct: ["Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)"]
+    },
+    {
+        id: 16,
+        question: "Which former American politician was caught in a compromising position in the new Borat film?",
+        answers: ["Bill Clinton", "Dick Cheney", "Jhon F.Kenedy", "Rudy Giuliani"],
+        correct: ["Rudy Giuliani"]
+    },
+    {
+        id: 17,
+        question: "Who played Neil, The Protagonist's sidekick, in Tenet?",
+        answers: ["Tom Holland", "Ronald Klinn", "Robert Pattinson", "Timothee Chalamet"],
+        correct: ["Robert Pattinson"]
+    },
+    {
+        id: 18,
+        question: "What year is the Wonder Woman sequel set in?",
+        answers: ["1972", "1948", "1984", "1995"],
+        correct: ["1984"]
+    },
+    {
+        id: 19,
+        question: "What is the name of Sherlock Holmes’ younger sister in the Netflix film based on Nancy Springer’s young-adult mystery series?",
+        answers: ["Alone", "Enola", "Anne", "Ammie"],
+        correct: ["Enola"]
+    },
+    {
+        id: 20,
+        question: "“What you can’t see can hurt you” is the tagline to which horror film?",
+        answers: ["Hannibal", "Carrie", "Mama", "The Invisible Man"],
+        correct: ["The Invisible Man"]
+    },
+    {
+        id: 21,
+        question: "Which Marvel star plays black-ops mercenary Tyler Rake in Netflix’s Extraction?",
+        answers: ["Chris Hemsworth", "Chris Evans", "Luke Hemsworth", "Robert Downey, Jr."],
+        correct: ["Chris Hemsworth"]
+    },
+    {
+        id: 22,
+        question: "Who had a UK number 1 single in February with the theme song from the James Bond film No Time To Die?",
+        answers: ["Mariah Carey", "Celine Dion", "Billie Eilish", "Rihanna"],
+        correct: ["Billie Eilish"]
+    },
+    {
+        id: 23,
+        question: "For what movie did Steven Spielberg win his first Oscar for Best Director?",
+        answers: ["Schindler’s List", "The Post", "The Adventures of Tintin", "War Horse"],
+        correct: ["Schindler’s List"]
+    },
+    {
+        id: 24,
+        question: "Mary Poppins is nanny to which family?",
+        answers: ["The Flinn family", "The Banks family", "The Brown family", "The Mill family"],
+        correct: ["The Banks family"]
+    },
+    {
+        id: 25,
+        question: "What was the name of the boat in Jaws?",
+        answers: ["Deep", "Magnolia", "Destiny", "Orca"],
+        correct: ["Orca"]
+    },
+    {
+        id: 26,
+        question: "Who was the first African American to win the Academy Award for best actor?",
+        answers: ["Sidney Poitier", "Halle Berry", "Samuel L. Jackson", "Will Smith"],
+        correct: ["Sidney Poitier"]
+    },
+    {
+        id: 27,
+        question: "Which film written, directed, and produced by James Cameron went on to become the highest-grossing film of its time?",
+        answers: ["Lord of Rings", "Inception", "Titanic", "Piranha II"],
+        correct: ["Titanic"]
+    },
+    {
+        id: 28,
+        question: "Which Disney princess dresses up as a man to save her father?",
+        answers: ["Arial", "Merida", "Pocahontas", "Mulan"],
+        correct: ["Mulan"]
+    },
+    {
+        id: 29,
+        question: "Who played the voice of Dory in the film Finding Dory?",
+        answers: ["Kristen Bell", "Ellen DeGeneres", "Jen Taylor", "Ashley Johnson"],
+        correct: ["Ellen DeGeneres"]
+    },
+    {
+        id: 30,
+        question: "Which actress won an Oscar for her first film role in Mary Poppins?",
+        answers: ["Julie Andrews", "Emily Blunt", "Karen Dotrice", "Glynis Johns"],
+        correct: ["Julie Andrews"]
+    },
+    {
+        id: 31,
+        question: "How old was Indiana Jones when his mother died?",
+        answers: ["8", "15", "18", "12"],
+        correct: ["12"]
+    },
+    {
+        id: 32,
+        question: "What is the name of Repunzal’s chameleon in Disney’s movie Tangled?",
+        answers: ["Giugin", "Pascal", "Light", "Paco"],
+        correct: ["Pascal"]
+    },
+    {
+        id: 33,
+        question: "Where was the entire trilogy of Lord of the Rings filmed?",
+        answers: ["Switzerland", "Canada", "Iceland", "New Zealand"],
+        correct: ["New Zealand"]
+    },
+    {
+        id: 34,
+        question: "How many movies are in the Jurassic Park series?",
+        answers: ["5", "6", "2", "8"],
+        correct: ["6"]
+    },
+    {
+        id: 35,
+        question: "How long did Forrest run in the film, Forrest Gump?",
+        answers: ["78 hours", "1 month", "Two weeks", "3 years, 2 months, 14 days & 16 hours"],
+        correct: ["3 years, 2 months, 14 days & 16 hours"]
     }
 ]
 
